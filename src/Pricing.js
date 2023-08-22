@@ -178,7 +178,10 @@ export default function Pricing() {
       </AppBar>
       {/* Hero unit */}
       <div style={{ display: "flex" }}>
-        <Video />
+        <Grid item xs={12} md={6}>
+          <Video />
+        </Grid>
+
         <div style={{ marginLeft: "3%" }}>
           <Container
             disableGutters
