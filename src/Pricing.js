@@ -18,6 +18,8 @@ import Container from "@mui/material/Container";
 import Video from "./Video";
 import PhoneIcon from "@mui/icons-material/Phone";
 import MailIcon from "@mui/icons-material/Mail";
+import Testimonials from "./Testimonials";
+import ContactForm from "./ContactForm";
 function Copyright(props) {
   return (
     <Typography
@@ -176,7 +178,6 @@ export default function Pricing() {
           </Button>
         </Toolbar>
       </AppBar>
-      {/* Hero unit */}
       <div style={{ display: "flex" }}>
         <Grid item xs={12} md={6}>
           <Video />
@@ -209,8 +210,6 @@ export default function Pricing() {
               components with little customization.
             </Typography>
           </Container>
-          {/* End hero unit */}
-
           <Container maxWidth="md" component="main">
             <Grid container spacing={5} alignItems="flex-end">
               {tiers.map((tier) => (
@@ -281,9 +280,13 @@ export default function Pricing() {
               ))}
             </Grid>
           </Container>
+          <ContactForm />
+        </div>
+        <div style={{ marginLeft: "2%", width: "25%" }}>
+          <Testimonials />
         </div>
       </div>
-      {/* Footer */}
+
       <Container
         maxWidth="md"
         component="footer"

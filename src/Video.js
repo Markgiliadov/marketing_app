@@ -37,18 +37,9 @@ export default function Video() {
             maxWidth: "100%",
             padding: "2px",
             minHeight: "350px",
-            // display: "flex",
-            // width: "640px",
-            // height: "360px",
-            // marginLeft: "auto",
-            // marginRight: "auto",
-            // maxWidth: "100%",
-            // // maxHeight: 550,
-            // padding: "2px",
           }}
           src="https://www.youtube.com/embed/JT3DE-FEsUw"
         />
-        hello
         <Typography
           variant="h6"
           align="left"

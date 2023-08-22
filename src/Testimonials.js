@@ -30,10 +30,29 @@ const Testimonials = () => {
   const testimonialsData = [
     {
       image: "testimonial-image-1.jpg",
-      text: "I can't believe the positive impact on my financial situation!",
+      text: "I can't believe the positive impact on my financial situation! Your bank's tailored solutions transformed my financial outlook. Thank you for empowering me to achieve my goals.",
       author: "Jane Doe",
     },
-    // Add more testimonial objects
+    {
+      image: "testimonial-image-2.jpg",
+      text: "Echelon Trust Bank has truly exceeded my expectations. Their commitment to customer service is unparalleled. I feel confident and supported in every financial decision I make.",
+      author: "John Smith",
+    },
+    {
+      image: "testimonial-image-3.jpg",
+      text: "From day one, your bank impressed me with its transparency and integrity. Your team's expertise helped me navigate complex financial choices, and I've reaped the rewards ever since.",
+      author: "Samantha Brown",
+    },
+    {
+      image: "testimonial-image-4.jpg",
+      text: "The personalized attention I receive from Echelon Trust Bank is extraordinary. They took the time to understand my financial aspirations and provided strategies that align perfectly with my goals.",
+      author: "Michael Johnson",
+    },
+    {
+      image: "testimonial-image-5.jpg",
+      text: "Choosing Echelon Trust Bank was a game-changer for me. The seamless digital experience combined with the human touch makes me feel valued as a client. I'm proud to be part of this community.",
+      author: "Emily Taylor",
+    },
   ];
 
   return (

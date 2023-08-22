@@ -5,12 +5,6 @@ const Home = () => {
   return (
     <div>
       <Pricing />
-      {/* <Header />
-      <Hero />
-      <Features />
-      <Testimonials />
-      <ContactForm />
-      <Footer /> */}
     </div>
   );
 };
