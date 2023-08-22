@@ -26,26 +26,25 @@ export default function Video() {
       }}
     >
       <Card style={{ padding: "2%", textAlign: "center" }}>
-        {/* <Typography
-          variant="h5"
-          align="left"
-          color="blue"
-          component="p"
-          padding="10px"
-        >
-          Quick intro to banking
-        </Typography> */}
         <CardMedia
           component="iframe"
           sx={{
             display: "flex",
-            width: "640px",
-            height: "360px",
+            width: "100%", // Adjust the width for mobile
+            height: "auto", // Allow the height to adjust automatically
             marginLeft: "auto",
             marginRight: "auto",
             maxWidth: "100%",
-            // maxHeight: 550,
             padding: "2px",
+            minHeight: "350px",
+            // display: "flex",
+            // width: "640px",
+            // height: "360px",
+            // marginLeft: "auto",
+            // marginRight: "auto",
+            // maxWidth: "100%",
+            // // maxHeight: 550,
+            // padding: "2px",
           }}
           src="https://www.youtube.com/embed/JT3DE-FEsUw"
         />
