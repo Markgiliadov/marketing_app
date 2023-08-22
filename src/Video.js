@@ -23,6 +23,8 @@ export default function Video() {
         height: "360px",
         marginTop: "1%",
         marginLeft: "3%",
+        minWidth: "250px",
+        maxWidth: "640px",
       }}
     >
       <Card style={{ padding: "2%", textAlign: "center" }}>

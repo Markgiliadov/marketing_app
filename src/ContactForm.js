@@ -35,7 +35,7 @@ const ContactForm = () => {
         <FormInput type="text" placeholder="Your Name" required />
         <FormInput type="email" placeholder="Your Email" required />
         <FormInput type="tel" placeholder="Your Phone" required />
-        <FormButton type="submit">Submit</FormButton>
+        <FormButton type="submit">Send</FormButton>
       </Form>
     </ContactFormWrapper>
   );

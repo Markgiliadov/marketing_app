@@ -43,9 +43,10 @@ const tiers = [
     title: "Free",
     price: "0",
     description: [
-      "10 users included",
-      "2 GB of storage",
-      "Help center access",
+      "less than 1% fee",
+      "1 account",
+      "2 smart contracts",
+      "Technical support 24/7",
       "Email support",
     ],
     buttonText: "Sign up for free",
@@ -56,9 +57,9 @@ const tiers = [
     subheader: "Most popular",
     price: "15",
     description: [
-      "20 users included",
-      "10 GB of storage",
-      "Help center access",
+      "20 accounts included",
+      "100 smart contracts",
+      "Direct tech to customer availability",
       "Priority email support",
     ],
     buttonText: "Get started",
@@ -68,10 +69,10 @@ const tiers = [
     title: "Enterprise",
     price: "30",
     description: [
-      "50 users included",
-      "30 GB of storage",
-      "Help center access",
-      "Phone & email support",
+      "50 accounts included",
+      "no fees per transaction",
+      "unlimited smart contract access",
+      "personal 1 on 1 account management support",
     ],
     buttonText: "Contact us",
     buttonVariant: "outlined",
@@ -179,7 +180,7 @@ export default function Pricing() {
         </Toolbar>
       </AppBar>
       <div style={{ display: "flex" }}>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={6} md={4}>
           <Video />
         </Grid>
 
@@ -205,9 +206,10 @@ export default function Pricing() {
               color="text.secondary"
               component="p"
             >
-              Quickly build an effective pricing table for your potential
-              customers with this layout. It&apos;s built with default MUI
-              components with little customization.
+              Quickly build an effective financial system for your potential
+              customers with these plans. It&apos;s built with default integrity
+              and peace of mind components with little customization to ensure
+              productivity and success.
             </Typography>
           </Container>
           <Container maxWidth="md" component="main">
