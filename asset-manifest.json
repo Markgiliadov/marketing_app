@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/marketing_app/static/js/main.d7f1706e.js",
+    "main.js": "/marketing_app/static/js/main.248f6c07.js",
     "index.html": "/marketing_app/index.html",
-    "main.d7f1706e.js.map": "/marketing_app/static/js/main.d7f1706e.js.map"
+    "main.248f6c07.js.map": "/marketing_app/static/js/main.248f6c07.js.map"
   },
   "entrypoints": [
-    "static/js/main.d7f1706e.js"
+    "static/js/main.248f6c07.js"
   ]
 }
